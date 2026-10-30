@@ -1,362 +1,76 @@
 
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Organisasi Mahasiswa</title>
+<!-- MEDIA -->
+<section id="media">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
+    <h2 class="section-title">Media Organisasi</h2>
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #222;
-            line-height: 1.7;
-        }
+    <!-- AUDIO 1 -->
+    <div class="media-box">
 
-        /* NAVBAR */
-        header {
-            background-color: #111827;
-            color: white;
-            padding: 18px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        header h2 {
-            color: #facc15;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-            font-size: 14px;
-        }
-
-        nav a:hover {
-            color: #facc15;
-        }
-
-        /* HERO */
-        .hero {
-            background: linear-gradient(135deg, #111827, #374151);
-            color: white;
-            text-align: center;
-            padding: 85px 20px;
-        }
-
-        .hero img {
-            width: 160px;
-            height: 160px;
-            object-fit: contain;
-            border-radius: 50%;
-            background: white;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-
-        .hero h1 {
-            font-size: 38px;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            color: #d1d5db;
-            max-width: 650px;
-            margin: auto;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 12px 25px;
-            background: #facc15;
-            color: #111827;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-        }
-
-        /* SECTION */
-        section {
-            padding: 60px 10%;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 28px;
-            margin-bottom: 30px;
-            color: #111827;
-        }
-
-        .about {
-            text-align: center;
-            max-width: 800px;
-            margin: auto;
-        }
-
-        /* VISI MISI */
-        .container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 25px;
-        }
-
-        .card {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
-        }
-
-        .card h3 {
-            color: #b45309;
-            margin-bottom: 12px;
-        }
-
-        /* MEDIA */
-        .media-box {
-            background: white;
-            padding: 25px;
-            margin-bottom: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
-        }
-
-        audio {
-            width: 100%;
-            margin-top: 15px;
-        }
-
-        video {
-            width: 100%;
-            max-height: 450px;
-            background: black;
-            border-radius: 10px;
-            margin-top: 15px;
-        }
-
-        /* FOOTER */
-        footer {
-            background: #111827;
-            color: white;
-            text-align: center;
-            padding: 25px;
-        }
-
-        footer p {
-            color: #d1d5db;
-            font-size: 14px;
-        }
-
-        /* RESPONSIVE */
-        @media (max-width: 700px) {
-            header {
-                flex-direction: column;
-                gap: 12px;
-            }
-
-            nav a {
-                margin: 0 7px;
-                font-size: 12px;
-            }
-
-            .hero h1 {
-                font-size: 28px;
-            }
-
-            .container {
-                grid-template-columns: 1fr;
-            }
-
-            section {
-                padding: 40px 6%;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-    <!-- NAVBAR -->
-    <header>
-        <h2>KING EMYU</h2>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#profil">Profil</a>
-            <a href="#visi">Visi Misi</a>
-            <a href="#media">Media</a>
-        </nav>
-    </header>
-
-    <!-- HALAMAN UTAMA -->
-    <div class="hero" id="home">
-
-        <img src="./UTS%20Profil%20Organisasi%20Mahasiswa/Logo%20King%20Emyu.jpg"
-     alt="Logo Organisasi Mahasiswa"
-     width="200">
-        <h1>Profil Organisasi Mahasiswa</h1>
+        <h3>Audio 1 - Glory Glory Man United</h3>
 
         <p>
-            Selamat datang di halaman profil King Emyu.
-            Website ini dibuat sebagai media informasi
-            untuk memperkenalkan identitas badut kita, tujuan,
-            serta dokumentasi organisasi.
+            Lagu yang menjadi salah satu identitas
+            dan semangat pendukung Manchester United.
         </p>
 
-        <a href="#profil" class="btn">Kenali Kami</a>
+        <audio controls>
+            <source src="./UTS%20Profil%20Organisasi%20Mahasiswa/Manchester_United_Anthem_-_Glory_Glory_Man_United_(mp3.pm).mp3" type="audio/mpeg">
+            Browser tidak mendukung audio.
+        </audio>
 
     </div>
 
-    <!-- PROFIL -->
-    <section id="profil">
+    <!-- AUDIO 2 -->
+    <div class="media-box">
 
-        <h2 class="section-title">Tentang Organisasi</h2>
-
-        <div class="about">
-
-            <p>
-                King Emyu merupakan nama organisasi atau komunitas
-                yang diperkenalkan melalui halaman website ini.
-                Website ini berfungsi sebagai sarana informasi
-                untuk mengenalkan identitas organisasi, menyampaikan
-                tujuan, serta menampilkan berbagai media pendukung saat emyu bapuk.
-            </p>
-
-            <p>
-                Melalui website ini, pengunjung dapat melihat
-                profil organisasi, membaca visi dan misi,
-                serta menikmati kesengsaraan kita melalui audio dan video yang tersedia.
-            </p>
-
-        </div>
-
-    </section>
-
-    <!-- VISI DAN MISI -->
-    <section id="visi">
-
-        <h2 class="section-title">Visi dan Misi</h2>
-
-        <div class="container">
-
-            <div class="card">
-
-                <h3>Visi</h3>
-
-                <p>
-                    Menjadi organisasi yang solid, aktif,
-                    memiliki rasa kebersamaan, dan mampu
-                    memberikan kontribusi positif bagi anggotanya serta menjadi badut yang tangguh,
-                    kuat tahan makian, sekaligus memaki club sendiri
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Misi</h3>
-
-                <ul>
-                    <li>Selalu Percaya Ilmu Ketapel dan Tsunami Trophy.</li>
-                    <li>Meningkatkan kerja sama dan solidaritas.</li>
-                    <li>Selalu Membanggakan dan support King Emyu apapun yang terjadi.</li>
-                    <li>Menjaga nama baik organisasi.</li>
-                </ul>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- MEDIA -->
-    <section id="media">
-
-        <h2 class="section-title">Media Organisasi</h2>
-
-        <!-- AUDIO 1 -->
-        <div class="media-box">
-
-            <h3>Audio 1 - Glory Glory Man United</h3>
-
-            <p>
-                Lagu yang menjadi salah satu identitas
-                dan semangat pendukung Manchester United.
-            </p>
-
-          <audio controls>
-    <source src="./UTS%20Profil%20Organisasi%20Mahasiswa/Manchester_United_Anthem_-_Glory_Glory_Man_United_(mp3.pm).mp3" type="audio/mpeg">
-</audio>
-    Browser tidak mendukung audio.
-</audio>
-        </div>
-
-        <!-- AUDIO 2 -->
-        <div class="media-box">
-
-            <h3>Audio 2 - Five Hundred Miles</h3>
-
-            <p>
-                Kapan menangnya woii,
-                ini cuma lagu tambahan soalnya kita lagi lose streak.
-            </p>
-
-           <audio controls>
-    <source src="./UTS%20Profil%20Organisasi%20Mahasiswa/Peter_Paul_Mary_-_Five_Hundred_Miles_(mp3.pm).mp3" type="audio/mpeg">
-</audio>
-    Browser tidak mendukung audio.
-</audio>
-
-        </div>
-
-        <!-- VIDEO -->
-        <div class="media-box">
-
-            <h3>Video Dokumentasi</h3>
-
-            <p>
-                Ini merupakan video saat dimana King Emyu #2,
-                udah ubeaten,sekalinya kalah di final, sedih bjirr.
-            </p>
-
-           <video controls width="400">
-    <source src="./UTS%20Profil%20Organisasi%20Mahasiswa/King%20Emyu.mp4" type="video/mp4">
-</video>
-    Browser tidak mendukung video.
-</video>
-
-        </div>
-
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-
-        <h3>KING EMYU</h3>
+        <h3>Audio 2 - Five Hundred Miles</h3>
 
         <p>
-            Website Profil Organisasi Mahasiswa
+            Kapan menangnya woii,
+            ini cuma lagu tambahan soalnya kita lagi lose streak.
         </p>
+
+        <audio controls>
+            <source src="./UTS%20Profil%20Organisasi%20Mahasiswa/Peter_Paul_Mary_-_Five_Hundred_Miles_(mp3.pm).mp3" type="audio/mpeg">
+            Browser tidak mendukung audio.
+        </audio>
+
+    </div>
+
+    <!-- VIDEO -->
+    <div class="media-box">
+
+        <h3>Video Dokumentasi</h3>
 
         <p>
-            &copy; 2026 King Emyu. All Rights Reserved.
+            Ini merupakan video saat King Emyu #2
+            udah unbeaten, sekalinya kalah di final, sedih bjirr.
         </p>
 
-    </footer>
+        <video controls>
+            <source src="./UTS%20Profil%20Organisasi%20Mahasiswa/King%20Emyu.mp4" type="video/mp4">
+            Browser tidak mendukung video.
+        </video>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <h3>KING EMYU</h3>
+
+    <p>
+        Website Profil Organisasi Mahasiswa
+    </p>
+
+    <p>
+        &copy; 2026 King Emyu. All Rights Reserved.
+    </p>
+
+</footer>
 
 </body>
 </html>
